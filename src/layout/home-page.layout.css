@@ -1,0 +1,404 @@
+.wrapper {
+}
+
+div {
+    display: block;
+}
+
+body {
+    color: #666666;
+    background: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/* @media (min-width: 992px) */
+/* .top-bar {
+    padding: 0 60px;
+} */
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.top-bar {
+    position: relative;
+    height: 80px;
+    background: #ffffff;
+    margin-top: -10px;
+}
+
+.nav-bar {
+    position: relative;
+    background: #c74044;
+}
+
+div {
+    display: block;
+}
+
+control-prev:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+a:hover, a:active, a:focus {
+    color: #000;
+    outline: none;
+    text-decoration: none;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 170px);
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+body {
+    color: #666666;
+    background: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.footer {
+    position: relative;
+    margin-top: 45px;
+    padding-top: 90px;
+    background: #c74044;
+    color: #ffffff;
+}
+
+.carousel .carousel-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 170px);
+    min-height: 400px;
+}
+
+.footer h2 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+element.style {
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeIn;
+}
+
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer .footer-link a:hover {
+    color: #edede9;
+    letter-spacing: 1px;
+}
+
+.footer .footer-social a:hover {
+    background: #ff0000;
+    border-color: #fff;
+    color: #fff;
+}
+
+.footer .copyright p a:hover {
+    color: #ffffff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+body {
+    color: #666666;
+    background: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.details h6 {
+    text-align: center;
+    color: #fff;
+}
+
+.details {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 163px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    font-family: georgia;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+element.style {
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeInUp;
+}
+
+.about .about-text a.btn {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff !important;
+    border-radius: 0;
+    background: #c74044;
+    transition: 0.3s;
+}
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn {
+    color: #ffffff;
+    border: 1px solid #03155d;
+    background: #03155d;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+dropdown-menu  {
+    background-color: #c74044;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    text-align: justify;
+    background-color: #c74044;
+    border: 0;
+    overflow: hidden;
+    background: c74044;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.mission {
+    border: 1px solid #c74044;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px 20px 20px 20px;
+    background-color: #c74044 !important;
+}
+
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+/* .items div {
+    position: absolute;
+} */
+
+/* .details {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 163px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    font-family: georgia;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.8s;
+} */
+
+/* .bg-items {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%);
+} */
+
+
+
+
+
+/* again css from beginning (whole css) */

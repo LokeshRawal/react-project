@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import HomePageLayout from './layout/home-page.layout';
+import Routing from './Routing/routing';
+import "./assets/css/main.css";
 import reportWebVitals from './reportWebVitals';
+import HomePage from './layout/home.page';
+import FirstPage from './layout/firstpage';
+import InitialPage from './layout/initial.page';
+import InitialPage1 from './layout/initial1.page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Routing />
   </React.StrictMode>
 );
 

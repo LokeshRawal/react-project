@@ -1,0 +1,15 @@
+.cardcomponent{
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    
+}
+
+
+
+
+.outercomponent{
+    background-color: #c74044;
+}
+
